@@ -1,38 +1,5 @@
 //app.js
-var util=require('./utils/util.js');
 App({
-  data:{
-    footerNav:[
-      {
-        name:'首页',
-        id:1,
-        url:'',
-        type:false,
-        finds:[]
-      },
-      {
-        name:'计算器',
-        id:2,
-        url:'cal/cal',
-        type:false,
-        finds:[]
-      },
-      {
-        name:'天气',
-        id:3,
-        url:'weather/weather',
-        type:false,
-        finds:[]
-      },
-      {
-        name:'我的信息',
-        id:4,
-        url:'index/index',
-        type:false,
-        finds:[]
-      }
-    ]
-  },
   onLaunch: function () {
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
@@ -68,11 +35,5 @@ App({
   },
   globalData: {
     userInfo: null
-  },
-  // 点击底部导航菜单
-  clickNav:function (event) {
-    var navId=event.target.id;
-    var nav=event.data.footerNav;
-    util.toPage(event,nav);
   }
 })

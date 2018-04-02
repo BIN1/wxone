@@ -11,10 +11,3 @@
     <text class="user-motto">{{motto}}</text>
   </view>
 </view>
-<view>
-  <view>
-    <block wx:for='{{footerNav}}' wx:for-item='nav'>
-      <template is='future-nav' data='{{nav}}' />
-    </block>
-  </view>
-</view>

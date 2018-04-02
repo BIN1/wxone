@@ -15,18 +15,5 @@ const formatNumber = n => {
 }
 
 module.exports = {
-  formatTime: formatTime,
-  toPage:toPage
-}
-// 底部导航按钮跳转
-function toPage(event,nav) {
-  var navId=event.target.id;
-  var url=nav[navId-1].url;
-  if(url===undefined || url ==''){
-    return;
-  }
-  // 关闭当前页面跳转
-  wx.redirectTo({
-    url:'../'+url
-  })
+  formatTime: formatTime
 }
