@@ -1,12 +1,45 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/cal/cal",
+    "pages/weather/weather",
+    "pages/user/user"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"首页",
+        "iconPath":"./icon/one.png",
+        "selectedIconPath":"./icon/five.png"
+      },
+      {
+        "pagePath":"pages/cal/cal",
+        "text":"计算机",
+        "iconPath":"./icon/two.png",
+        "selectedIconPath":"./icon/six.png"
+      },
+      {
+        "pagePath":"pages/weather/weather",
+        "text":"天气",
+        "iconPath":"./icon/four.png",
+        "selectedIconPath":"./icon/eight.png"
+      },
+      {
+        "pagePath":"pages/user/user",
+        "text":"个人中心",
+        "iconPath":"./icon/three.png",
+        "selectedIconPath":"./icon/seven.png"
+      }
+    ],
+    "color":"#666",
+    "selectedColor":"#8fc31f"
   }
 }
