@@ -1,0 +1,26 @@
+/* pages/list/list.wxss */
+
+.content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #065279;
+    background-repeat: repeat;
+    padding-top: 5rpx;
+}
+
+.item {
+    width: 90%;
+    line-height: 100rpx;
+    margin-top: 3rpx;
+    border-bottom: 3rpx;
+    padding-left: 3rpx;
+    color: #fef4e9;
+    background: #f78d1d;
+}
+
+.paddingConent {
+    height: 468rpx;
+}

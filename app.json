@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/cal/cal",
     "pages/weather/weather",
-    "pages/user/user"
+    "pages/user/user",
+    "pages/calLog/calLog"
   ],
   "window":{
     "backgroundTextStyle":"light",

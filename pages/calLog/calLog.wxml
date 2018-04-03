@@ -1,0 +1,7 @@
+<view>
+    <view wx:for="{{logs}}">
+        <view class="item">
+            {{item}}
+        </view>
+    </view>
+</view>
