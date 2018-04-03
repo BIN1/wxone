@@ -1,0 +1,10 @@
+<template name="future-item">
+  <view class="future-item">
+    <view class="weather-date">{{item.date}}</view>
+    
+    <view><image style="width: 30px; height: 30px;" src="{{item.img}}"></image></view>
+    <view>{{item.fengxiang}} {{item.fengli}}</view>
+    <view>{{item.low}}</view>
+    <view>{{item.high}}</view>
+  </view>
+</template>

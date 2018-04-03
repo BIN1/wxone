@@ -1,0 +1,32 @@
+<view class="content" >
+    <view class="today">
+        <view class="info">
+            <view class="temp">
+                <image style="width: 55px; height: 37px;" src="{{weatherImage}}"></image>
+            </view>
+            <view class="weather">
+               <view>{{today.type}} </view>
+            </view>
+             <view class="weather">{{today.wendu}} {{today.fengxiang}} {{today.fengli}}</view>
+            <view class="">{{today.ganmao}}</view>
+            <view class="nowinfo">
+               <view class="date">{{nowDate}}</view>
+               <view class="city">{{city}}</view>
+            </view>
+        </view>
+    </view>
+
+    <import src="../template/itemtpl.wxml"/>
+    <view class="future">
+      <view wx:for="{{future}}">
+           <template is="future-item" data="{{item}}" />
+      </view>      
+    </view>
+</view>
+<view>
+ <loading hidden="{{hidden}}">
+  加载中...
+ </loading>
+</view>
+
+
