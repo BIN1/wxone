@@ -1,0 +1,20 @@
+<template name="goods-item">
+  <view class="goods-item">
+    <view class="item-left">
+        <image style="width: 140rpx; height: 130rpx;" src="{{item.img}}"></image>
+    </view>
+    <view class="item-right">
+        <view class="item-name">
+            {{item.name}}
+        </view>
+        <view class="item-price">
+            <view class="price">
+                ¥{{item.price}}/月
+            </view>
+            <view class="retent">
+                {{item.retent}}期
+            </view>
+        </view>
+    </view>
+  </view>
+</template>

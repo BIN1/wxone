@@ -1,4 +1,11 @@
 //logs.js
 const util = require("../../utils/util.js");
 
-Page({});
+Page({
+    data:{
+
+    },
+    onLoad:function (options) {
+        
+    }
+});
