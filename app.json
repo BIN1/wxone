@@ -8,7 +8,8 @@
     "pages/calLog/calLog",
     "pages/swiper/swiper",
     "pages/mainpages/audio/audio",
-    "pages/mainpages/video/video"
+    "pages/mainpages/video/video",
+    "pages/mainpages/camera/camera"
   ],
   "window":{
     "backgroundTextStyle":"light",

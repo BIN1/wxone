@@ -1,0 +1,13 @@
+camera{
+    width: 100%;
+    height: 400px;
+}
+video,image{
+    width: 100%;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}

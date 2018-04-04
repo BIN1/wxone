@@ -8,5 +8,9 @@
             <view>视频</view>
             <image src="../../img/arrow.png"/>
         </view>
+        <view class="item" id="camera" bindtap="clickTab">
+            <view>相机</view>
+            <image src="../../img/arrow.png"/>
+        </view>
     </view>
 </view>
