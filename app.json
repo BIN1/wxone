@@ -5,7 +5,8 @@
     "pages/cal/cal",
     "pages/weather/weather",
     "pages/user/user",
-    "pages/calLog/calLog"
+    "pages/calLog/calLog",
+    "pages/swiper/swiper"
   ],
   "window":{
     "backgroundTextStyle":"light",

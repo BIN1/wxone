@@ -91,6 +91,11 @@ Page({
       url: "../logs/logs"
     });
   },
+  toswiper:function() {
+    wx.navigateTo({
+      url:'../swiper/swiper'
+    })
+  },
   onLoad: function() {
     console.log(this.data.goodsItem);
     if (app.globalData.userInfo) {

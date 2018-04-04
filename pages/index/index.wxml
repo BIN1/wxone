@@ -1,6 +1,6 @@
 <import src="../template/goodstpl.wxml"/>
 <scroll-view class="goods" scroll-y style="height:100%;" bindscrolltolower="lower" bindscrolltoupper="upper" enable-back-to-top scroll-with-animation>
-  <view wx:for="{{goodsItem}}">
+  <view wx:for="{{goodsItem}}" bindtap="toswiper">
         <template is="goods-item" data="{{item}}" />
   </view>      
 </scroll-view>

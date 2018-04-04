@@ -1,0 +1,28 @@
+swiper{
+    height:512rpx;
+    position:relative;
+}
+.swiper-item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+image{
+    width:100%;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dots{
+    position:absolute;
+    right:24rpx;
+    bottom:24rpx;
+    width:40px;
+    height:40px;
+    color: #fff;
+    background: #999;
+    border-radius:50%;
+}
