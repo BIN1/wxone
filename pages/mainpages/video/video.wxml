@@ -1,0 +1,8 @@
+<view>
+    <video id="myVideo" src="{{src}}" controls enable-danmu danmu-btn autoplay loop danmu-list="{{danmuList}}"></video>
+    <view class="btn-area">
+        <button bindtap="bindButtonTap">切换视频</button>
+        <input bindtap="bindInputBlur" />
+        <button bindtap="bindSendDanmu">发送弹慕</button>
+    </view>
+</view>

@@ -7,5 +7,12 @@ Page({
     },
     onLoad:function (options) {
         
+    },
+    clickTab:function(event){
+        var id=event.target.id;
+        wx.navigateTo({
+            url:'../mainpages/'+id+'/'+id
+        })
+        console.log(id)
     }
 });

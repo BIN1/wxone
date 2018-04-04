@@ -1,3 +1,12 @@
 <view>
-    fsadlfjlkj
+    <view class="item-box">
+        <view class="item" id="audio" bindtap="clickTab">
+            <view>音乐</view>
+            <image src="../../img/arrow.png"/>
+        </view>
+        <view class="item" id="video" bindtap="clickTab">
+            <view>视频</view>
+            <image src="../../img/arrow.png"/>
+        </view>
+    </view>
 </view>

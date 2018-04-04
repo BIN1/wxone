@@ -1,0 +1,15 @@
+.item-box{
+    padding: 24rpx;
+    height: 100%;
+}
+.item{
+    height: 80rpx;
+    border-bottom: 2rpx solid #ededed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+image{
+    width: 12px;
+    height: 12px;
+}

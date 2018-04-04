@@ -1,0 +1,7 @@
+<view>
+    <audio src="{{src}}" controls loop id="myAudio" author="{{author}}" name="{{name}}"></audio>
+    <button type="primary" size="defaultSize"   bindtap="audioPlay" hover-class="defaultTap">开始／继续</button>
+    <button type="primary" size="defaultSize"   bindtap="audioPause" hover-class="defaultTap">暂停</button>
+    <button type="primary" size="defaultSize"   bindtap="audioStart" hover-class="defaultTap">回到头部</button>
+    <button type="primary" size="defaultSize"   bindtap="audioUpdate" hover-class="defaultTap">timeupdate</button>
+</view>

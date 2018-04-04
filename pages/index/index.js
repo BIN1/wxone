@@ -1,6 +1,6 @@
 //index.js
 //获取应用实例
-const app = getApp()
+const app = getApp();
 
 Page({
   data: {
@@ -10,75 +10,87 @@ Page({
     canIUse: wx.canIUse("button.open-type.getUserInfo"),
     goodsItem: [
       {
-        img: "./../../img/product1.jpg",
+        img:
+          "http://www.kuaizu365.cn/Public/images/upload/goods/2017-04-18/mini_1492510802_5082.jpg",
         name:
           "全新HP 400 G3 DM home版 迷你台式机,全新HP 400 G3 DM home版 迷你台式机,全新HP 400 G3 DM home版 迷你台式机,全新HP 400 G3 DM home版 迷你台式机",
         price: "290.00",
         retent: "12"
       },
       {
-        img: "./../../img/product2.jpg",
+        img:
+          "http://www.kuaizu365.cn/Public/images/upload/goods/2016-03-25/mini_1458885806_7474.jpg",
         name: "全新HP 400 G3 DM home版 迷你台式机",
         price: "290.00",
         retent: "12"
       },
       {
-        img: "./../../img/product3.jpg",
+        img:
+          "http://www.kuaizu365.cn/Public/images/upload/goods/2017-04-11/mini_1491882355_7416.png",
         name: "全新HP 400 G3 DM home版 迷你台式机",
         price: "290.00",
         retent: "12"
       },
       {
-        img: "./../../img/product4.jpg",
+        img:
+          "http://www.kuaizu365.cn//Public/images/upload/goods/2016-10-12/mini_1476236559_2464.jpg",
         name: "全新HP 400 G3 DM home版 迷你台式机",
         price: "290.00",
         retent: "12"
       },
       {
-        img: "./../../img/product5.jpg",
+        img:
+          "http://www.kuaizu365.cn/Public/images/upload/goods/2016-06-28/mini_1467094552_7002.jpg",
         name: "全新HP 400 G3 DM home版 迷你台式机",
         price: "290.00",
         retent: "12"
       },
       {
-        img: "./../../img/product6.jpg",
+        img:
+          "http://www.kuaizu365.cn/Public/images/upload/goods/2016-04-22/mini_1461290901_3352.jpg",
         name: "全新HP 400 G3 DM home版 迷你台式机",
         price: "290.00",
         retent: "12"
       },
       {
-        img: "./../../img/product1.jpg",
+        img:
+          "http://www.kuaizu365.cn/Public/images/upload/goods/2017-04-18/mini_1492510802_5082.jpg",
         name:
           "全新HP 400 G3 DM home版 迷你台式机,全新HP 400 G3 DM home版 迷你台式机,全新HP 400 G3 DM home版 迷你台式机,全新HP 400 G3 DM home版 迷你台式机",
         price: "290.00",
         retent: "12"
       },
       {
-        img: "./../../img/product2.jpg",
+        img:
+          "http://www.kuaizu365.cn/Public/images/upload/goods/2016-03-25/mini_1458885806_7474.jpg",
         name: "全新HP 400 G3 DM home版 迷你台式机",
         price: "290.00",
         retent: "12"
       },
       {
-        img: "./../../img/product3.jpg",
+        img:
+          "http://www.kuaizu365.cn/Public/images/upload/goods/2017-04-11/mini_1491882355_7416.png",
         name: "全新HP 400 G3 DM home版 迷你台式机",
         price: "290.00",
         retent: "12"
       },
       {
-        img: "./../../img/product4.jpg",
+        img:
+          "http://www.kuaizu365.cn//Public/images/upload/goods/2016-10-12/mini_1476236559_2464.jpg",
         name: "全新HP 400 G3 DM home版 迷你台式机",
         price: "290.00",
         retent: "12"
       },
       {
-        img: "./../../img/product5.jpg",
+        img:
+          "http://www.kuaizu365.cn/Public/images/upload/goods/2016-06-28/mini_1467094552_7002.jpg",
         name: "全新HP 400 G3 DM home版 迷你台式机",
         price: "290.00",
         retent: "12"
       },
       {
-        img: "./../../img/product6.jpg",
+        img:
+          "http://www.kuaizu365.cn/Public/images/upload/goods/2016-04-22/mini_1461290901_3352.jpg",
         name: "全新HP 400 G3 DM home版 迷你台式机",
         price: "290.00",
         retent: "12"
@@ -91,10 +103,10 @@ Page({
       url: "../logs/logs"
     });
   },
-  toswiper:function() {
+  toswiper: function() {
     wx.navigateTo({
-      url:'../swiper/swiper'
-    })
+      url: "../swiper/swiper"
+    });
   },
   onLoad: function() {
     console.log(this.data.goodsItem);
@@ -133,12 +145,12 @@ Page({
       hasUserInfo: true
     });
   },
-  lower:function (options) {
-    var goods = [{ img: "./../../img/product1.jpg", name: "全新HP 400 G3 DM home版 迷你台式机,全新HP 400 G3 DM home版 迷你台式机,全新HP 400 G3 DM home版 迷你台式机,全新HP 400 G3 DM home版 迷你台式机", price: "290.00", retent: "12" }, { img: "./../../img/product2.jpg", name: "全新HP 400 G3 DM home版 迷你台式机", price: "290.00", retent: "12" }, { img: "./../../img/product3.jpg", name: "全新HP 400 G3 DM home版 迷你台式机", price: "290.00", retent: "12" }, { img: "./../../img/product4.jpg", name: "全新HP 400 G3 DM home版 迷你台式机", price: "290.00", retent: "12" }, { img: "./../../img/product5.jpg", name: "全新HP 400 G3 DM home版 迷你台式机", price: "290.00", retent: "12" }, { img: "./../../img/product6.jpg", name: "全新HP 400 G3 DM home版 迷你台式机", price: "290.00", retent: "12" }, { img: "./../../img/product1.jpg", name: "全新HP 400 G3 DM home版 迷你台式机,全新HP 400 G3 DM home版 迷你台式机,全新HP 400 G3 DM home版 迷你台式机,全新HP 400 G3 DM home版 迷你台式机", price: "290.00", retent: "12" }];
-    goods=this.data.goodsItem.concat(goods);
+  lower: function(options) {
+    var goods = [{ img: "http://www.kuaizu365.cn/Public/images/upload/goods/2017-04-18/mini_1492510802_5082.jpg", name: "全新HP 400 G3 DM home版 迷你台式机,全新HP 400 G3 DM home版 迷你台式机,全新HP 400 G3 DM home版 迷你台式机,全新HP 400 G3 DM home版 迷你台式机", price: "290.00", retent: "12" }, { img: "http://www.kuaizu365.cn/Public/images/upload/goods/2016-03-25/mini_1458885806_7474.jpg", name: "全新HP 400 G3 DM home版 迷你台式机", price: "290.00", retent: "12" }, { img: "http://www.kuaizu365.cn/Public/images/upload/goods/2017-04-11/mini_1491882355_7416.png", name: "全新HP 400 G3 DM home版 迷你台式机", price: "290.00", retent: "12" }, { img: "http://www.kuaizu365.cn//Public/images/upload/goods/2016-10-12/mini_1476236559_2464.jpg", name: "全新HP 400 G3 DM home版 迷你台式机", price: "290.00", retent: "12" }, { img: "http://www.kuaizu365.cn/Public/images/upload/goods/2016-06-28/mini_1467094552_7002.jpg", name: "全新HP 400 G3 DM home版 迷你台式机", price: "290.00", retent: "12" }, { img: "http://www.kuaizu365.cn/Public/images/upload/goods/2016-04-22/mini_1461290901_3352.jpg", name: "全新HP 400 G3 DM home版 迷你台式机", price: "290.00", retent: "12" }];
+    goods = this.data.goodsItem.concat(goods);
     this.setData({ goodsItem: goods });
   },
-  upper:function(){
-    console.log("滚到顶部了")
+  upper: function() {
+    console.log("滚到顶部了");
   }
 });

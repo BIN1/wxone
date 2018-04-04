@@ -6,7 +6,9 @@
     "pages/weather/weather",
     "pages/user/user",
     "pages/calLog/calLog",
-    "pages/swiper/swiper"
+    "pages/swiper/swiper",
+    "pages/mainpages/audio/audio",
+    "pages/mainpages/video/video"
   ],
   "window":{
     "backgroundTextStyle":"light",
