@@ -12,5 +12,9 @@
             <view>相机</view>
             <image src="../../img/arrow.png"/>
         </view>
+        <view class="item" id="switch" bindtap="clickTab">
+            <view>switch</view>
+            <image src="../../img/arrow.png"/>
+        </view>
     </view>
 </view>

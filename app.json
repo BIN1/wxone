@@ -9,7 +9,8 @@
     "pages/swiper/swiper",
     "pages/mainpages/audio/audio",
     "pages/mainpages/video/video",
-    "pages/mainpages/camera/camera"
+    "pages/mainpages/camera/camera",
+    "pages/mainpages/switch/switch"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -39,7 +40,7 @@
       },
       {
         "pagePath":"pages/user/user",
-        "text":"个人中心",
+        "text":"功能中心",
         "iconPath":"./icon/three.png",
         "selectedIconPath":"./icon/seven.png"
       }

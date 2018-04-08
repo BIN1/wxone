@@ -1,0 +1,10 @@
+<view>
+    <switch checked bindchange="switchChange"/>
+    <switch bindchange="switchChange2"/>
+    <view>
+        switch1：{{switch1}}
+    </view>
+    <view>
+        switch2：{{switch2}}
+    </view>
+</view>
